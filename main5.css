@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{background-color: rgba(212,150,110,1.00)
+}
+header h1{
+	font-size: 60px;
+	font-family: typeka, sans-serif;
+font-weight: 700;
+font-style: normal;
+	text-align: center;
+	color: rgba(237,233,209,1.00)}
+
+nav{
+	width: 100%;
+	text-align: center;
+	
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	font-size: 30px;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family: typeka, sans-serif;
+	font-weight: 700;
+font-style: normal;
+	color:rgba(237,233,209,1.00)
+}
+
+nav a:link {
+	font-size: 30px;
+	font-family: typeka, sans-serif;
+font-weight: 700;
+font-style: normal;
+	color:rgba(237,233,209,1.00);
+	text-decoration: none;
+	margin-right: 20px;}
+
+nav a:hover {
+	color:rgba(24,66,53,1.00)}
+
+nav a:active {
+	text-decoration: underline;
+}
+.left{
+	width:400px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.right{
+	width: 400px;
+	float: right;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-family: typeka, sans-serif;
+	font-size: 20px;
+	color: rgba(237,233,209,1.00);
+	background-color:rgba(102,132,109,1.00);
+	border-radius: 15px;
+	padding:10px;}
